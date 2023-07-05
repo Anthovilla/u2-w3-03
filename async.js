@@ -14,11 +14,12 @@ const libreria = function (){
 //2
 .then((data) => {
     console.log(data)
-    let cardsGroup = document.querySelector('.card-group')
+    let cardsGroup = document.getElementById('card-group')
     data.forEach((item) => {
         let cards = document.createElement('div')
         cards.classList.add('col')
         cards.innerHTML = `
+
         <div class="card h-100">
         <img src="${item.img}" class="card-img-top" alt="...">
         <div class="card-body">
