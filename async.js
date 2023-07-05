@@ -21,13 +21,13 @@ const libreria = function (){
         cards.innerHTML = `
 
         <div class="card h-100">
-        <img src="${item.img}" class="card-img-top" alt="...">
+        <img src="${item.img}" class="card-img-top " alt="...">
         <div class="card-body">
           <h5 class="card-title">${item.title}</h5>
           <p class="card-text">${item.price}</p>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-<button class="btn btn-primary" type="button"> Scarta </button>
+<button class="btn btn-primary my-3" type="button"> Scarta </button>
  </div>
       </div>
 
