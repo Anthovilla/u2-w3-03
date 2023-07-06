@@ -27,7 +27,7 @@ const libreria = function (){
           <p class="card-text">${item.price}</p>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-<button class="btn btn-primary mb-3" type="button"> Scarta </button>
+<button class="btn btn-primary mb-3" type="button"> Scarta </button>s
  </div>
       </div>
 
